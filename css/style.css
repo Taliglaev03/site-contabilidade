@@ -142,7 +142,7 @@
     text-align: center;
   }
 
-  .container-card, .container-card-2, .container-card-3{
+  .container-card, .container-card-2{
     max-width: 1000px;
     margin: 0 auto;
     display: flex;
@@ -151,6 +151,10 @@
     justify-content: space-evenly;
     margin-top: 15px;
     gap: 20px;
+  }
+
+  .container-card-3{
+    text-align: center;
   }
 
   .container-card, .container-card-2, .container-card-3{
@@ -169,7 +173,8 @@
 
   .container-card-3 h1{
     color:#152F40 ;
-    font-size: 23px;
+    font-size: 26px;
+    text-align: center;
   }
 
   .container-card  p{
@@ -187,8 +192,10 @@
 
   .container-card-3 p{
    font-size: 15px;
+   padding: 15px;
    text-align: left;
-   max-width: 451px;
+  
+   
     
     
   }
